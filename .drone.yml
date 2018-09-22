@@ -6,7 +6,6 @@ clone:
 
 pipeline:
   rspec:
-    image: ruby:2.1.8
+    image: golang
     commands:
-      - bundle install
-      - rspec
+      - echo 'hi'
