@@ -5,7 +5,7 @@ clone:
     tags: true
 
 pipeline:
-  rspec:
+  testing:
     image: golang
     commands:
       - echo 'hi'
